@@ -6,5 +6,7 @@ def remove_empty_files(path):
         if not dirnames and not filenames:
             os.rmdir(dirpath)
 
-
+"""
+example of the current directory
+"""
 remove_empty_files('.')
